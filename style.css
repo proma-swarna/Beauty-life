@@ -1,0 +1,459 @@
+*{
+	margin:0;
+	padding:0;
+	box sizing:border-box;
+}
+.main{
+	width:1100px;
+	margin:0 auto;
+}
+.head{
+	overflow:hidden;
+	background-color:#212E66;
+}
+.logo{
+	float:left;
+}
+.logo h4{
+	text-transform: capitalize;
+	font-size: 60px;
+	color: #FFF;
+	margin: 24px;
+	font-family: Harlow Solid Italic;
+    padding: 9px;
+    border-bottom: 5px solid #FFF;
+	border-left: 8px solid #FFF;
+}
+.highlight{
+	color:#82D5CC;
+	font-size:70px;
+	font-family:bold;
+}
+.menu{
+	float: right;
+	width: 632px;
+	margin-right:12px;
+}
+.menu ul,.menu-list ul{
+	list-style:none;
+	text-align:right;
+}
+.menu ul li{
+	display:inline-block;
+}
+.menu ul li a:hover{
+	border-bottom:4px solid #82D5CC;
+	border-top:3px solid #82D5CC;
+	background-color:#516295;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 28px;
+	color: #FFF;
+	text-transform: capitalize;
+	margin-top: 90px;
+	padding:11px;
+	font-weight:bold;
+}
+.banner,.banner2,.banner3{
+	
+}
+.banner img,.banner2 img,.banner3 img{
+	width:100%;
+}
+.about{
+	background-color: #030303;
+	padding:81px;
+}
+.about-us{
+	text-align:center;
+	padding: 10px;
+	border: 8px inset #CFD1D3;
+}
+.about-us h4,.about-us2 h4,.image-gallery h4{
+	text-transform: capitalize;
+	font-size: 44px;
+	color: #FFF;
+	font-family:Cambria;
+	margin-left: 320px;
+	margin-right: 320px;
+}
+.about-us p,.about-us2 p{
+	text-align: justify;
+	font-size: 24px;
+	padding: 21px;
+	font-family: Cambria;
+	color: #FFF;
+}
+.about-us a,.service-more a,.main-gallery a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 26px;
+	color: #FFF;
+	text-transform: capitalize;
+	margin-top: 14px;
+	padding:15px;
+	background-color:#212E66;
+}
+.about-us a:hover,.service-more a:hover,.main-gallery a:hover{
+	border-bottom:4px solid #82D5CC;
+	border-top:3px solid #82D5CC;
+}
+.banner_2{
+	background-image:url('img/ad.jpg');
+	background-position:center;
+	background-size:cover;
+	overflow:hidden;
+}
+.banner_2 h4{
+	text-transform: capitalize;
+	font-size: 44px;
+	color: #FFF;
+	font-family:Cambria;
+	text-align: center;
+	margin-top:70px;
+}
+.banner_2 p{
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 130px;
+	font-family: Cambria;
+	color: #FFF;
+}
+.services,.gallery{
+	overflow:hidden;
+	background-color:#000;	
+	padding-top:33px;
+}
+.services h4{
+	text-transform: capitalize;
+	font-size: 47px;
+	color: #FFF;
+	font-family:Cambria;
+	text-align: center;
+	padding:30px;
+	border-bottom: 4px solid #FFF;
+	margin-left: 398px;
+    margin-right: 365px;
+    border-left: 5px solid #FFF;
+}
+.services h4:hover,.main-gallery h4:hover,.menu-list h4:hover{
+	border-right:5px solid #82D5CC;
+	border-left:0;
+	border-bottom:5px solid #82D5CC;
+}
+.service{
+	float: left;
+	width: 276px;
+	margin-right: 10px;
+	padding: 40px;
+}
+.service ul{
+	list-style:none;
+}
+.service ul li{
+	display:block;
+}
+.service ul li a{
+	display: block;
+	font-size: 28px;
+	font-family: Cambria;
+	padding: 15px;
+	text-transform: capitalize;
+	color: #FFF;
+	font-weight:bold;
+	border-left:3px solid #FFF;
+}
+.service ul li a p{
+	text-align: right;
+	font-size: 19px;
+	font-family: Cambria;
+	color: #C38A91;
+	margin-top: 9px;
+}
+.service:last-child{
+	margin-right:0;
+}
+.service-more{
+	text-align:center;
+	padding:18px;
+}
+.main-gallery,.main-gallery2{
+    padding: 49px;
+    margin-right:40px;
+	text-align:center;
+}
+.main-gallery h4,.main-gallery2 h4,.contact-number h4,.location h4{
+	text-transform: capitalize;
+	font-size: 47px;
+	color: #FFF;
+	font-family:Cambria;
+	text-align: center;
+	padding:30px;
+	border-bottom:6px solid #FFF;
+}
+.main-gallery img{
+	width:245px;
+	padding:14px;
+}
+.contact{
+	overflow:hidden;
+	text-align:left;
+	background-image:url(img/banner_2.jpg);
+	background-position:center;
+	background-size:cover;
+	padding:35px;	
+	border:5px solid #000;
+}
+.contact h4{
+	text-transform: uppercase;
+	font-size:40px;
+	color: #FFF;
+	font-family:Cambria;
+	padding-left:100px;
+	padding-top:100px;
+}
+.contact p{
+	font-size: 30px;
+	font-family: Cambria;
+	color: #FFF;
+	text-transform:capitalize;
+	padding-left:100px;
+	padding-top:15px;
+	font-weight:bold;
+	padding-bottom:5px;
+}
+.footer{
+	overflow:hidden;
+	background-color:#212E66;
+	text-align: center;
+}
+.footer-menu{
+	float:left;
+	margin-right: 26px;
+	height:390px;
+}
+.footer-menu:last-child{
+	margin-right:0;
+}
+.menu-list,.opening-menu{
+	float:left;
+	padding: 38px;
+	width: 215px;
+	margin-right: 61px;
+}
+.location-menu{
+	float:left;
+	padding: 38px;
+	width: 215px;
+	margin-right: 61px;
+}
+.menu-list ul{
+}
+.menu-list ul li{
+	display:block;
+	text-align:left;
+	border-bottom:1px solid #FFF;
+}
+.menu-list ul li a,.opening-menu ul li a,.location-menu ul li a{
+	display:inline-block;
+	text-decoration:none;
+	color:#FFF;
+	font-size: 30px;
+    text-transform: capitalize;
+    padding: 4px;
+}
+.menu-list ul li:hover{
+	background-color:#82D5CC;
+}
+.opening-menu ul{
+	list-style:none;
+	margin-top:51px;
+}
+.location-menu ul{
+	list-style:none;
+}
+.opening-menu ul li,.location-menu ul li{
+	display:block;
+	text-align:left;
+}
+.opening-menu ul li:first-child{
+	font-weight:bold;
+	border-bottom:1px solid #FFF;
+}
+.menu-list p,.location-menu p{
+	padding: 19px;
+	font-size: 30px;
+	color: #FFF;
+	font-family: Cambria;
+	text-transform: capitalize;
+	font-weight: bold;
+	border-bottom:1px solid #FFF;
+}
+.right-footer{
+	text-align:right;
+	margin-right: 26px;
+}
+.right-footer p{
+	padding: 19px;
+	font-size: 30px;
+	color: #FFF;
+	font-family: Cambria;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+/*about area start*/
+.about-us2{
+	text-align:justify;
+	padding: 10px;
+}
+.main-gallery2 img{
+	width: 190px;
+	padding: 5px;
+}
+.main-gallery2 p{
+	color:#FFF;
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+/*gallery area star*/
+.image-gallery{
+	text-align:center;
+	padding: 10px;
+	background-color:#000;
+}	
+.single-gallery img{
+	width: 290px;
+	margin-top: 122px;
+	margin-right: 40px;
+}
+/*srevice area start*/
+.simple-service,.simple-gallery{
+	overflow:hidden;
+}
+.single-service{
+	float: left;
+	width: 276px;
+	margin-right: 10px;
+	padding: 40px;
+}
+.single-service ul,.contact-number ul,.location ul{
+	list-style:none;
+}
+.single-service ul li,.contact-number ul li,.location ul li{
+	display:block;
+}
+.single-service ul li a{
+	display: block;
+	font-size: 28px;
+	font-family: Cambria;
+	padding: 15px;
+	text-transform: capitalize;
+	color: #FFF;
+	font-weight:bold;
+	border:3px solid #FFF;
+	text-align:center;
+	margin-top: 70px;
+}
+.single-service ul li a img{
+	width:100%;
+	margin-bottom: 12px;
+}
+.single-service ul li a p{
+	text-align: justify;
+	font-size: 19px;
+	font-family: Cambria;
+	color: #C38A91;
+	margin-top: 9px;
+}
+.single-service:last-child{
+	margin-right:0;
+}
+.dolar{
+	color:#C38A91;
+}
+/*contact area start*/
+.contact-form{
+	background-color:#000;
+	padding: 110px;
+}
+.form{
+	padding: 20px;
+	border: 1px solid #FFF;
+}
+.contact-form h4{
+	font-size: 49px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: capitalize;
+    padding: 17px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    border-bottom: 5px solid #FFF;
+    margin-right: 241px;
+}
+.contact-form P{
+	font-size: 28px;
+	font-weight:bold;
+	color: #FFF;
+	text-transform: capitalize;
+	padding: 5px;
+	margin-top: 10px;
+}
+.contact-form input{
+	width: 100%;
+	padding: 16px;
+	margin-top: 19px;
+	border-bottom: 3px solid #463E3F;
+	border-top: 0px;
+}
+.contact-form input[type="submit"]{
+	width: auto;
+	padding: 18px 57px;
+	background-color: #212E66;
+	color: #FFF;
+	cursor: pointer;
+	border: 0;
+	margin-top: 26px;
+}
+.contact-form textarea{
+	width: 100%;
+	padding: 16px;
+	margin-top: 19px;
+}
+.contact-location{
+	overflow:hidden;
+	background-color:#000;
+}
+.contact-number{
+	float: left;
+	width: 388px;
+	padding: 70px;
+	text-align: center;
+	margin-right: 20px;
+}
+.contact-number ul li a,.location ul li a{
+	display: block;
+	font-size: 28px;
+	font-family: Cambria;
+	text-transform: capitalize;
+	color: #FFF;
+	text-align:center;
+	margin-top: 10px;
+}
+.location{
+	float:right;
+	width: 410px;
+	padding: 70px;
+	text-align: center;
+}
+.map{
+	
+}
+.map iframe{
+	width: 100%;
+	height: 380px;
+	border: 1px solid #FFF;
+}
